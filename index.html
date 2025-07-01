@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Satyendra Architect & Associate</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>Satyendra Architect & Associate</h1>
+      <nav>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="overlay">
+      <h2>Designing Excellence in Architecture</h2>
+      <p>Modern. Functional. Inspiring Spaces.</p>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <div class="container">
+      <h3>Our Projects</h3>
+      <div class="grid">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1502673530728-f79b4cab31b1" alt="Elegant Residence">
+          <h4>Elegant Residence</h4>
+          <p>A blend of luxury and sustainable living.</p>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1554995207-c18c203602cb" alt="Corporate Tower">
+          <h4>Corporate Tower</h4>
+          <p>Cutting-edge architecture for businesses.</p>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1529429611273-95e12e4d06b2" alt="Community Hall">
+          <h4>Community Hall</h4>
+          <p>A modern hub for community and culture.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h3>About Us</h3>
+      <p>We bring visions to life through innovative architectural design, combining function and elegance to craft spaces that inspire.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h3>Get in Touch</h3>
+      <form action="/api/contact" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    &copy; 2025 Satyendra Architect & Associate. All rights reserved.
+  </footer>
+</body>
+</html>
